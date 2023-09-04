@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practica 04 de Septiembre</title>
+</head>
+<body>
+    <h1>Formularios HTML</h1>
+
+    <form action="" method="post"></form>
+
+        <div>
+            <label for="nombre">Nombre:</label>
+            <input type="text" name="nombre" id="nombre">
+        </div>
+
+        <div>
+            <label for="colorFav">Color favorito</label>
+            <input type="color" name="colorFav" id="colorFav">
+        </div>
+
+        <div>
+            <label for="fechaNac">Fecha Nacimiento</label>
+            <input type="date" name="fechaNac" id="fechaNac">
+        </div>
+        
+        <div>
+            <label for="clave">Fecha Nacimiento</label>
+            <input type="password" name="clave" id="clave">
+        </div>
+
+        <div>
+            <label for="semestre">Fecha Nacimiento</label>
+            <input type="range" min="1" max="9" name="semestre" id="semestre">
+        </div>
+
+        <div>
+            <label for="comentarios">Comentarios</label>
+            <textarea name="comentarios" id="comentarios" cols="30" rows="10"></textarea>
+        </div>
+
+        <div>
+            <label for="curriculum">Archivo de curriculum</label>
+            <input type="file" name="curriculum" id="curriculum">
+        </div>
+
+        <div>
+            <label for="curso">curso</label>
+            <select name="curso" id="curso">
+                <option value="1">Python</option>
+                <option value="2">C#</option>
+                <option value="3">Cobol</option>
+            </select>
+        </div>
+
+        <div>
+            <label for="curso">curso</label>
+            <select name="curso" id="curso" multiple>
+                <option value="1">Python</option>
+                <option value="2">C#</option>
+                <option value="3">Cobol</option>
+            </select>
+        </div>
+
+        <div>
+            <label for="curso">curso</label>
+            <select name="curso" id="curso">
+                <optgroup label="En linea">
+                    <option value="1">Python</option>
+                </optgroup>
+                <otpgroup label="Presencial">
+                    <option value="2">C#</option>
+                    <option value="3">Cobol</option>
+                </otpgroup>
+            </select>
+        </div>
+
+        <input type="button" value="Guardar">
+        <button>Enviar</button>
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Borrar">
+        <a href="#">Enviar</a>
+</body>
+</html>
